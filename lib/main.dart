@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
-    theme:ThemeData(
+    theme: ThemeData(
       colorScheme: ColorScheme.fromSeed(
         seedColor: Colors.deepPurple,
       ),
@@ -17,9 +17,19 @@ void main() {
         ),
         backgroundColor: Colors.deepPurple,
         foregroundColor: Colors.white,
+        actions: [
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 16.0),
+            child: Center(
+              child: Text(
+                '${animeList.length}',
+                style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+              ),
+            ),
+          ),
+        ],
       ),
       body: AnimeList(),
     ),
-  ),
-  );
+  ));
 }
