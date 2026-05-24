@@ -1,17 +1,30 @@
-# anime_catalog
+# Лабораторная работа №4: Основы Flutter (Список и каталог)
 
-A new Flutter project.
+## Информация о студенте
+- **ФИО:** Беляев В.А. и Селиванов П.А.
+- **Группа:** ИСП-233
+- **Дата сдачи:** 24 мая 2026 г.
 
-## Getting Started
+## Что изучено в ходе работы
+1. Работа со списками ListView.builder для отображения динамических данных.
+2. Использование AppBar и добавление элементов в actions (счётчик элементов).
+3. Создание собственной модели данных для каталога (аниме/игры/фильмы).
+4. Подключение и отображение локальных изображений через assets.
+5. Передача данных между виджетами через конструктор.
 
-This project is a starting point for a Flutter application.
+## Скриншот финального приложения
+![Скриншот приложения](img/step4_BelSel.png)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Инструкция по запуску
+1. Клонируйте репозиторий:
+   ```bash
+   git clone https://github.com/ваш-username/anime_catalog.git
+2. Перейдите в папку проекта:
+    ```bash
+    cd anime_catalog
+3. Установите зависимости:
+    ```bash
+    flutter pub get
+4. Запустите приложение:
+    ```bash
+    flutter run
